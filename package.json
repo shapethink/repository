@@ -1,0 +1,33 @@
+{
+  "name": "@threadmetal/repository",
+  "private": true,
+  "version": "0.0.0",
+  "description": "an interface to git repositories",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/threadmetal/repository.git"
+  },
+  "keywords": [
+    "git",
+    "experimental"
+  ],
+  "author": "Robert M. Koch <threadmetal@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/threadmetal/repository/issues"
+  },
+  "homepage": "https://github.com/threadmetal/repository#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coffee-script": "^1.10.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "ampersand-collection": "^1.6.1",
+    "ampersand-state": "^5.0.0"
+  }
+}
